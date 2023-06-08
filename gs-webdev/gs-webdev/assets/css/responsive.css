@@ -1,0 +1,41 @@
+/* < 600px */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    img {
+        width: 100%;
+    }
+    .wrap {
+        width: 100%;
+        height: auto;
+    }
+}
+  
+/* > 600px & < 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+    img {
+        width: 100%;
+    }
+    .wrap {
+        width: 100%;
+        height: auto;
+    }
+}
+
+ /* > 1200px */
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+    img {
+        width: 100%;
+    }
+    .wrap {
+        width: 100%;
+        height: auto;
+    }
+}

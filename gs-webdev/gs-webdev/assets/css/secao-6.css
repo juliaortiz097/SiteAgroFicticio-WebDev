@@ -1,0 +1,131 @@
+.container-6 {
+    width: 100%;
+    max-height: 130vh;
+    overflow: hidden;
+}
+
+.background-image-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
+    url(../images/background/pexels-philippe-serrand-14104714.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top {
+    position: relative;
+    height: 70vh;
+}
+
+.bottom {
+    height: 30vh;
+}
+
+.border-6 {
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    border: 2px solid #dad7cd;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.box-6 {
+    width: 1180px;
+    height: 380px;
+    position: absolute;
+    background-color: #dad7cd;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-6-text {
+    width: 32%;
+    height: 90%;
+    border-left: 1px solid #a3b18a8b;
+    border-right: 1px solid #a3b18a8b;
+}
+
+.box-6-text h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.box-6-text p {
+    font-size: 20px;
+    text-align: center;
+    padding: 6px 15px 0px 15px;
+}
+
+#icon-6 {
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+    position: relative;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#deco-6 {
+    object-fit: cover;
+}
+
+/* CONTATO */
+
+.container-6-2 {
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+}
+
+.container-6-2 h1 {
+    text-align: center;
+    padding: 40px 20px 20px 0px;
+}
+
+.flex-6-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-6-2 input {
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: -242px;
+}
+
+.container-6-2 p {
+    position: relative;
+}
+
+/* botão de enviar */
+#submit {
+    position: relative;
+    background: #ffffff00;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 12px 40px 12px 40px;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #588157;
+    color: #fff;
+    border: none;
+    transition-duration: 1.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
